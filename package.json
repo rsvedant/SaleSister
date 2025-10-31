@@ -24,7 +24,10 @@
     "dev:server": "turbo -F @SaleSister/backend dev",
     "dev:setup": "turbo -F @SaleSister/backend dev:setup"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@daveyplate/better-auth-ui": "^3.2.7",
+    "framer-motion": "^12.23.24"
+  },
   "devDependencies": {
     "turbo": "^2.5.4"
   },

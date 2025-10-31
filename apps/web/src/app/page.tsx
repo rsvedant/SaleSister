@@ -1,6 +1,6 @@
 "use client";
 import { useQuery } from "convex/react";
-import { api } from "@SaleSister/backend/convex/_generated/api";
+import { api } from "@/convex/_generated/api";
 
 const TITLE_TEXT = `
  ██████╗ ███████╗████████╗████████╗███████╗██████╗

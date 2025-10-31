@@ -3,7 +3,7 @@
 import SignInForm from "@/components/sign-in-form";
 import SignUpForm from "@/components/sign-up-form";
 import UserMenu from "@/components/user-menu";
-import { api } from "@SaleSister/backend/convex/_generated/api";
+import { api } from "@/convex/_generated/api";
 import {
 	Authenticated,
 	AuthLoading,

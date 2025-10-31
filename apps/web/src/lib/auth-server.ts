@@ -1,4 +1,4 @@
-import { createAuth } from "@SaleSister/backend/convex/auth";
+import { createAuth } from "@my-better-t-app/backend/convex/auth";
 import { getToken as getTokenNextjs } from "@convex-dev/better-auth/nextjs";
 
 export const getToken = () => {
