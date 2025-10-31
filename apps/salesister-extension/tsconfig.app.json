@@ -10,7 +10,10 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@/convex/*": [
+        "../../packages/backend/convex/*"
+      ]
     },
     "types": ["vite/client", "chrome"],
     "allowImportingTsExtensions": true,
