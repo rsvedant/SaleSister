@@ -8,11 +8,16 @@
  * @module
  */
 
+import type * as actionables from "../actionables.js";
 import type * as auth from "../auth.js";
-import type * as healthCheck from "../healthCheck.js";
+import type * as callInsights from "../callInsights.js";
+import type * as calls from "../calls.js";
+import type * as crmSync from "../crmSync.js";
+import type * as crmSyncQueries from "../crmSyncQueries.js";
+import type * as cron from "../cron.js";
 import type * as http from "../http.js";
-import type * as privateData from "../privateData.js";
-import type * as todos from "../todos.js";
+import type * as userSettings from "../userSettings.js";
+import type * as validators from "../validators.js";
 
 import type {
   ApiFromModules,
@@ -29,11 +34,16 @@ import type {
  * ```
  */
 declare const fullApi: ApiFromModules<{
+  actionables: typeof actionables;
   auth: typeof auth;
-  healthCheck: typeof healthCheck;
+  callInsights: typeof callInsights;
+  calls: typeof calls;
+  crmSync: typeof crmSync;
+  crmSyncQueries: typeof crmSyncQueries;
+  cron: typeof cron;
   http: typeof http;
-  privateData: typeof privateData;
-  todos: typeof todos;
+  userSettings: typeof userSettings;
+  validators: typeof validators;
 }>;
 declare const fullApiWithMounts: typeof fullApi;
 

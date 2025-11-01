@@ -15,6 +15,7 @@
   "dependencies": {
     "convex": "catalog:",
     "better-auth": "catalog:",
-    "@convex-dev/better-auth": "catalog:"
+    "@convex-dev/better-auth": "catalog:",
+    "@hubspot/api-client": "^11.2.0"
   }
 }
